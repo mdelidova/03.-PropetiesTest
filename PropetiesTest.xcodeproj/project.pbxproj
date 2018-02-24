@@ -13,6 +13,7 @@
 		24C2148D2040765A001F1692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C2148C2040765A001F1692 /* Assets.xcassets */; };
 		24C214902040765A001F1692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C2148E2040765A001F1692 /* LaunchScreen.storyboard */; };
 		24C214932040765A001F1692 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C214922040765A001F1692 /* main.m */; };
+		24C2149B204076D5001F1692 /* ASBoxer.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C2149A204076D5001F1692 /* ASBoxer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		24C2148F2040765A001F1692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24C214912040765A001F1692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C214922040765A001F1692 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24C21499204076D5001F1692 /* ASBoxer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASBoxer.h; sourceTree = "<group>"; };
+		24C2149A204076D5001F1692 /* ASBoxer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASBoxer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		24C214822040765A001F1692 /* PropetiesTest */ = {
 			isa = PBXGroup;
 			children = (
+				24C21499204076D5001F1692 /* ASBoxer.h */,
+				24C2149A204076D5001F1692 /* ASBoxer.m */,
 				24C214832040765A001F1692 /* AppDelegate.h */,
 				24C214842040765A001F1692 /* AppDelegate.m */,
 				24C214862040765A001F1692 /* ViewController.h */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C2149B204076D5001F1692 /* ASBoxer.m in Sources */,
 				24C214882040765A001F1692 /* ViewController.m in Sources */,
 				24C214932040765A001F1692 /* main.m in Sources */,
 				24C214852040765A001F1692 /* AppDelegate.m in Sources */,
